@@ -1,7 +1,10 @@
 <?php
 $x=1;
-while($x<=90){
-$x*=9;
-echo $x;
+$y=1;
+while($x<=10){
+$y=$x*9;
+echo $y;
+echo "<br>";
+$x++;
 }
->
+?>
